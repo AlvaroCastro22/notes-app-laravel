@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <h1>Edit your tone</h1>
     <div class="note-container single-note">
         <h1 class="text-3xl py-4">Edit your note</h1>
@@ -12,4 +12,4 @@
             </div>
         </form>
     </div>
-</x-layout>
+</x-app-layout>
