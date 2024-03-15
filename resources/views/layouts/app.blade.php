@@ -29,6 +29,11 @@
 
             <!-- Page Content -->
             <main>
+                @session('message')
+        <div  class="text-white bg-green-600 h-12 flex items-center pl-8 text-lg">
+            {{session("message")}}
+        </div>
+    @endsession
                 {{ $slot }}
             </main>
         </div>
